@@ -3,7 +3,6 @@ from os import getcwd, path
 
 
 def logger_conf():
-    pass
     return {
         "version": 1,
         "disable_existing_loggers": False,
