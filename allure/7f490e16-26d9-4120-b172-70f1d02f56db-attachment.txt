@@ -1,0 +1,8 @@
+connectionpool.py          824 DEBUG    Starting new HTTPS connection (1): httpbin.org
+connectionpool.py          396 DEBUG    https://httpbin.org:443 "GET /redirect/3 HTTP/1.1" 302 247
+connectionpool.py          243 DEBUG    Resetting dropped connection: httpbin.org
+connectionpool.py          396 DEBUG    https://httpbin.org:443 "GET /relative-redirect/2 HTTP/1.1" 302 0
+connectionpool.py          243 DEBUG    Resetting dropped connection: httpbin.org
+connectionpool.py          396 DEBUG    https://httpbin.org:443 "GET /relative-redirect/1 HTTP/1.1" 302 0
+connectionpool.py          243 DEBUG    Resetting dropped connection: httpbin.org
+connectionpool.py          396 DEBUG    https://httpbin.org:443 "GET /get HTTP/1.1" 200 612

@@ -22,7 +22,7 @@ def logger_conf():
 
             "info_file_handler": {
                 "class": "logging.handlers.RotatingFileHandler",
-                "level": "INFO",
+                "level": "DEBUG",
                 "formatter": "simple",
                 "filename": path.join(path.dirname(path.realpath(__file__)), "logs", "info.log"),
                 "maxBytes": 10485760,
@@ -54,7 +54,7 @@ def logger_conf():
         },
 
         "root": {
-            "level": "INFO",
+            "level": "DEBUG",
             "handlers": ["console", "info_file_handler", "error_file_handler"]
         }
     }
