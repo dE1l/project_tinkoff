@@ -7,11 +7,16 @@ else:
     from time import time as os_timer
 
 
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
 def timer(f):
     def tmp(*args, **kwargs):
         t = os_timer()
         res = f(*args, **kwargs)
-        print("Время выполнения функции: %s" % (os_timer()-t))
+        logger.info("Время выполнения функции: %s" % (os_timer()-t))
         return res
     return tmp
 
