@@ -25,9 +25,11 @@ class Application(object):
 
     def get(self, *args, headers=base_headers):
         """
-        :param args:
-        :param headers:
-        :return:
+        Send get request
+
+        :param args: arguments that joining to url
+        :param headers: dict with headers, optional parameter
+        :return: object requests.get
         """
         url = '/'.join(str(arg) for arg in args)
         resp = requests.get(f"{self.base_url}/{url}", headers=headers)

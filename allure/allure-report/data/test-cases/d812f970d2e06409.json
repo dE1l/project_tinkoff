@@ -1,0 +1,83 @@
+{
+  "uid" : "d812f970d2e06409",
+  "name" : "test_header",
+  "fullName" : "tests.test_first.test_header",
+  "historyId" : "e728124fd05d51070f50d5f301fdd35f",
+  "time" : {
+    "start" : 1511972703439,
+    "stop" : 1511972704266,
+    "duration" : 827
+  },
+  "description" : "\n    Send get request by 'headers' method, check headers and compare it with base_headers of project\n\n    :param api: main base fixture\n    :return: None\n    ",
+  "descriptionHtml" : "<pre><code>Send get request by 'headers' method, check headers and compare it with base_headers of project\n\n:param api: main base fixture\n:return: None\n</code></pre>\n",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f9cbc234229412ad",
+      "name" : "Captured log call",
+      "source" : "f9cbc234229412ad.txt",
+      "type" : "text/plain",
+      "size" : 182
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EKJEHP3"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4660-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "tests.test_first"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.test_first"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_header"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_first"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "source" : "d812f970d2e06409.json",
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

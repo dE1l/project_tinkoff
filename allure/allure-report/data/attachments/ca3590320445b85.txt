@@ -1,0 +1,2 @@
+connectionpool.py          824 DEBUG    Starting new HTTPS connection (1): httpbin.org
+connectionpool.py          396 DEBUG    https://httpbin.org:443 "GET /status/404 HTTP/1.1" 404 0

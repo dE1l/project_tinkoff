@@ -1,0 +1,83 @@
+{
+  "uid" : "d488277f98053eb4",
+  "name" : "test_redirect[1]",
+  "fullName" : "tests.test_first.test_redirect[1]",
+  "historyId" : "7c579835812b09596855f7b92b11a3fd",
+  "time" : {
+    "start" : 1511972707920,
+    "stop" : 1511972709083,
+    "duration" : 1163
+  },
+  "description" : "\n    Send get request by 'redirect' method and check redirect count\n\n    :param api: main base fixture\n    :param redirect_count: send request with this redirect count and check it\n    :return: None\n    ",
+  "descriptionHtml" : "<pre><code>Send get request by 'redirect' method and check redirect count\n\n:param api: main base fixture\n:param redirect_count: send request with this redirect count and check it\n:return: None\n</code></pre>\n",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60d7a684b053694f",
+      "name" : "Captured log call",
+      "source" : "60d7a684b053694f.txt",
+      "type" : "text/plain",
+      "size" : 359
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EKJEHP3"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4660-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "tests.test_first"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.test_first"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_redirect[1]"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_first"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "source" : "d488277f98053eb4.json",
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

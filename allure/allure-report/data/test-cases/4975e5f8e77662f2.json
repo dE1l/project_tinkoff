@@ -1,0 +1,83 @@
+{
+  "uid" : "4975e5f8e77662f2",
+  "name" : "test_status[400]",
+  "fullName" : "tests.test_first.test_status[400]",
+  "historyId" : "205ef36dbacb7e147e39e1607d664eb1",
+  "time" : {
+    "start" : 1511972705454,
+    "stop" : 1511972706041,
+    "duration" : 587
+  },
+  "description" : "\n    Send get request by 'status' method and check status_code\n\n    :param api: main base fixture\n    :param status_code: send request with this status code and check it\n    :return: None\n    ",
+  "descriptionHtml" : "<pre><code>Send get request by 'status' method and check status_code\n\n:param api: main base fixture\n:param status_code: send request with this status code and check it\n:return: None\n</code></pre>\n",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3d39b699a4bb59f7",
+      "name" : "Captured log call",
+      "source" : "3d39b699a4bb59f7.txt",
+      "type" : "text/plain",
+      "size" : 183
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EKJEHP3"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4660-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "tests.test_first"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.test_first"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_status[400]"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_first"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "source" : "4975e5f8e77662f2.json",
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

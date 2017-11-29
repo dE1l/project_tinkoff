@@ -1,5 +1,5 @@
 import logging
-from os import getcwd, path
+from os import path
 
 
 def logger_conf():
@@ -42,13 +42,8 @@ def logger_conf():
         },
 
         "loggers": {
-            "my_module": {
-                "level": "ERROR",
-                "handlers": ["console"],
-                "propagate": "no"
-            },
-            'requests.packages.urllib3': {
-                'handlers': ['info_file_handler', 'console'],
+            'my_app': {
+                'handlers': ['console'],
                 'level': logging.DEBUG
             }
         },

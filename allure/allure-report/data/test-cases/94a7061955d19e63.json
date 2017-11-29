@@ -1,0 +1,96 @@
+{
+  "uid" : "94a7061955d19e63",
+  "name" : "test_log_assert_false",
+  "fullName" : "tests.test_first.test_log_assert_false",
+  "historyId" : "32c73098ce5d29c0852a301ea5e49a3f",
+  "time" : {
+    "start" : 1511972711459,
+    "stop" : 1511972711495,
+    "duration" : 36
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "AssertionError: assert False",
+    "trace" : "api = <application.Application object at 0x000001D5F59895C0>\n\n    def test_log_assert_false(api):\n>       assert False\nE       assert False\n\ntest_first.py:50: AssertionError",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "AssertionError: assert False",
+      "trace" : "api = <application.Application object at 0x000001D5F59895C0>\n\n    def test_log_assert_false(api):\n>       assert False\nE       assert False\n\ntest_first.py:50: AssertionError",
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e575aa9b35e8eee9",
+      "name" : "Captured log call",
+      "source" : "e575aa9b35e8eee9.txt",
+      "type" : "text/plain",
+      "size" : 1786
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EKJEHP3"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4660-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "tests.test_first"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.test_first"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_log_assert_false"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_first"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "AssertionError: assert False",
+    "trace" : "api = <application.Application object at 0x000001D5F59895C0>\n\n    def test_log_assert_false(api):\n>       assert False\nE       assert False\n\ntest_first.py:50: AssertionError",
+    "flaky" : false
+  },
+  "source" : "94a7061955d19e63.json",
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

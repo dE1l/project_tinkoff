@@ -1,0 +1,218 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1511972703439" stop="1511972711495">
+  <name>tests.test_first</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1511972703439" status="passed" stop="1511972704266">
+      <description>
+    Send get request by 'headers' method, check headers and compare it with base_headers of project
+
+    :param api: main base fixture
+    :return: None
+    </description>
+      <name>test_header</name>
+      <attachments>
+        <attachment source="d54cd83a-7e40-4b5d-88e1-4e409e293976-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4660-MainThread"/>
+        <label name="host" value="DESKTOP-EKJEHP3"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1511972704271" status="passed" stop="1511972704857">
+      <description>
+    Send get request by 'status' method and check status_code
+
+    :param api: main base fixture
+    :param status_code: send request with this status code and check it
+    :return: None
+    </description>
+      <name>test_status[200]</name>
+      <attachments>
+        <attachment source="e7fe6e56-d372-41b5-bf84-df3abd59487c-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4660-MainThread"/>
+        <label name="host" value="DESKTOP-EKJEHP3"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1511972704860" status="passed" stop="1511972705451">
+      <description>
+    Send get request by 'status' method and check status_code
+
+    :param api: main base fixture
+    :param status_code: send request with this status code and check it
+    :return: None
+    </description>
+      <name>test_status[201]</name>
+      <attachments>
+        <attachment source="98805f41-c05f-4aba-a964-6086ad9763be-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4660-MainThread"/>
+        <label name="host" value="DESKTOP-EKJEHP3"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1511972705454" status="passed" stop="1511972706041">
+      <description>
+    Send get request by 'status' method and check status_code
+
+    :param api: main base fixture
+    :param status_code: send request with this status code and check it
+    :return: None
+    </description>
+      <name>test_status[400]</name>
+      <attachments>
+        <attachment source="87341ce4-3025-4fcf-927b-c18d503f8279-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4660-MainThread"/>
+        <label name="host" value="DESKTOP-EKJEHP3"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1511972706132" status="passed" stop="1511972706707">
+      <description>
+    Send get request by 'status' method and check status_code
+
+    :param api: main base fixture
+    :param status_code: send request with this status code and check it
+    :return: None
+    </description>
+      <name>test_status[403]</name>
+      <attachments>
+        <attachment source="806c7f43-2d14-43ed-a843-071463510a27-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4660-MainThread"/>
+        <label name="host" value="DESKTOP-EKJEHP3"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1511972706728" status="passed" stop="1511972707330">
+      <description>
+    Send get request by 'status' method and check status_code
+
+    :param api: main base fixture
+    :param status_code: send request with this status code and check it
+    :return: None
+    </description>
+      <name>test_status[404]</name>
+      <attachments>
+        <attachment source="088566c6-509a-48ba-b881-696e9d359c52-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4660-MainThread"/>
+        <label name="host" value="DESKTOP-EKJEHP3"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1511972707332" status="passed" stop="1511972707913">
+      <description>
+    Send get request by 'status' method and check status_code
+
+    :param api: main base fixture
+    :param status_code: send request with this status code and check it
+    :return: None
+    </description>
+      <name>test_status[500]</name>
+      <attachments>
+        <attachment source="4d09c287-32ab-4bdc-b793-beffc7afc465-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4660-MainThread"/>
+        <label name="host" value="DESKTOP-EKJEHP3"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1511972707920" status="passed" stop="1511972709083">
+      <description>
+    Send get request by 'redirect' method and check redirect count
+
+    :param api: main base fixture
+    :param redirect_count: send request with this redirect count and check it
+    :return: None
+    </description>
+      <name>test_redirect[1]</name>
+      <attachments>
+        <attachment source="9c1d7ce3-d44c-4f72-8ed2-fce9960980b6-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4660-MainThread"/>
+        <label name="host" value="DESKTOP-EKJEHP3"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1511972709090" status="passed" stop="1511972711457">
+      <description>
+    Send get request by 'redirect' method and check redirect count
+
+    :param api: main base fixture
+    :param redirect_count: send request with this redirect count and check it
+    :return: None
+    </description>
+      <name>test_redirect[3]</name>
+      <attachments>
+        <attachment source="4ccc3284-6dba-484f-a62a-09189d2d3514-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4660-MainThread"/>
+        <label name="host" value="DESKTOP-EKJEHP3"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1511972711459" status="failed" stop="1511972711495">
+      <name>test_log_assert_false</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>api = &lt;application.Application object at 0x000001D5F59895C0&gt;
+
+    def test_log_assert_false(api):
+&gt;       assert False
+E       assert False
+
+test_first.py:50: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="62b33cd8-b597-4f13-946e-d56d26a0ad02-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4660-MainThread"/>
+        <label name="host" value="DESKTOP-EKJEHP3"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

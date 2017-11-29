@@ -1,0 +1,108 @@
+2017-11-29 19:07:38,730 - root - ERROR - pytest_runtest_call caught exception:
+Traceback (most recent call last):
+  File "C:\vKalendare\project_tinkoff\conftest.py", line 19, in pytest_runtest_call
+    __multicall__.execute()
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 130, in execute
+    res = hook_impl.function(*args)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\_pytest\runner.py", line 107, in pytest_runtest_call
+    item.runtest()
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\_pytest\python.py", line 1171, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 201, in _multicall
+    return outcome.get_result()
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 76, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\_pytest\python.py", line 147, in pytest_pyfunc_call
+    testfunction(**testargs)
+  File "C:\vKalendare\project_tinkoff\tests\test_first.py", line 18, in test_header
+    assert not 'headers' in resp_json
+AssertionError: assert not 'headers' in {'headers': {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7', 'Connection': 'close', ...}}
+2017-11-29 19:09:35,062 - root - ERROR - pytest_runtest_call caught exception:
+Traceback (most recent call last):
+  File "C:\vKalendare\project_tinkoff\conftest.py", line 19, in pytest_runtest_call
+    __multicall__.execute()
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 130, in execute
+    res = hook_impl.function(*args)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\_pytest\runner.py", line 107, in pytest_runtest_call
+    item.runtest()
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\_pytest\python.py", line 1171, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 201, in _multicall
+    return outcome.get_result()
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 76, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\_pytest\python.py", line 147, in pytest_pyfunc_call
+    testfunction(**testargs)
+  File "C:\vKalendare\project_tinkoff\tests\test_first.py", line 18, in test_header
+    assert not 'headers' in resp_json
+AssertionError: assert not 'headers' in {'headers': {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7', 'Connection': 'close', ...}}
+2017-11-29 19:12:12,885 - root - ERROR - pytest_runtest_call caught exception:
+Traceback (most recent call last):
+  File "C:\vKalendare\project_tinkoff\conftest.py", line 19, in pytest_runtest_call
+    __multicall__.execute()
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 130, in execute
+    res = hook_impl.function(*args)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\_pytest\runner.py", line 107, in pytest_runtest_call
+    item.runtest()
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\_pytest\python.py", line 1171, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 201, in _multicall
+    return outcome.get_result()
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 76, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\_pytest\python.py", line 147, in pytest_pyfunc_call
+    testfunction(**testargs)
+  File "C:\vKalendare\project_tinkoff\tests\test_first.py", line 18, in test_header
+    assert not 'headers' in resp_json
+AssertionError: assert not 'headers' in {'headers': {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7', 'Connection': 'close', ...}}
+2017-11-29 19:25:11,460 - root - ERROR - pytest_runtest_call caught exception:
+Traceback (most recent call last):
+  File "C:\vKalendare\project_tinkoff\conftest.py", line 19, in pytest_runtest_call
+    __multicall__.execute()
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 130, in execute
+    res = hook_impl.function(*args)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\_pytest\runner.py", line 107, in pytest_runtest_call
+    item.runtest()
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\_pytest\python.py", line 1171, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 201, in _multicall
+    return outcome.get_result()
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 76, in get_result
+    raise ex[1].with_traceback(ex[2])
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\vKalendare\venv36_tinkoff\lib\site-packages\_pytest\python.py", line 147, in pytest_pyfunc_call
+    testfunction(**testargs)
+  File "C:\vKalendare\project_tinkoff\tests\test_first.py", line 50, in test_log_assert_false
+    assert False
+AssertionError: assert False
