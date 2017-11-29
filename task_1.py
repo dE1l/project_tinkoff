@@ -35,6 +35,8 @@ def reverse(st):
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:
-        print(reverse(sys.argv[1]))
+        logger.info(reverse(sys.argv[1]))
+    elif len(sys.argv) == 1:
+        logger.warning('Please specify one parameter')
     else:
-        print('Please specify only one parameter')
+        logger.warning('Please specify only one parameter')
