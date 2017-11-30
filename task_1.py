@@ -1,27 +1,30 @@
 import os
 import sys
+from functools import wraps
 
 if os.name == 'nt':
     from time import clock as os_timer
 else:
     from time import time as os_timer
 
-
 import logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 
-def timer(f):
-    def tmp(*args, **kwargs):
-        t = os_timer()
-        res = f(*args, **kwargs)
-        logger.info("Время выполнения функции: %s" % (os_timer()-t))
-        return res
-    return tmp
+def timeit(level):
+    def decorator(func):
+        logger = logging.getLogger(__name__)
+        logging.basicConfig(level=level)
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            t = os_timer()
+            res = func(*args, **kwargs)
+            logger.info("Время выполнения функции: %s" % (os_timer()-t))
+            return res
+        return wrapper
+    return decorator
 
 
-@timer
+@timeit(logging.INFO)
 def reverse(st):
     """
     Reverse symbols of the string.
@@ -34,6 +37,9 @@ def reverse(st):
 
 
 if __name__ == "__main__":
+    logger = logging.getLogger(__name__)
+    logging.basicConfig(level=logging.INFO)
+
     if len(sys.argv) == 2:
         logger.info(reverse(sys.argv[1]))
     elif len(sys.argv) == 1:
